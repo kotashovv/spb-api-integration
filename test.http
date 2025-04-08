@@ -1,0 +1,4 @@
+curl -X 'GET' \
+  'https://spbticket.com/api/v1/integration/schedules?dateStart=2025-04-04&dateEnd=2025-04-05' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Rldi5zcGJ0aWNrZXQuY29tIiwiYXVkIjoiaHR0cHM6Ly9kZXYuc3BidGlja2V0LmNvbSIsImlhdCI6MTc0MzAwNzIzNCwibmJmIjoxNzQzMDA3MjM0LCJleHAiOjE3NDU1OTkyMzQsImRhdGEiOnsiaWQiOjY0LCJmaXJzdG5hbWUiOiJcdTA0MThcdTA0MzJcdTA0MzBcdTA0M2QiLCJwYXRyb255bWljIjoiXHUwNDE4XHUwNDMyXHUwNDMwXHUwNDNkXHUwNDNlXHUwNDMyXHUwNDM4XHUwNDQ3IiwibGFzdG5hbWUiOiJcdTA0MThcdTA0MzJcdTA0MzBcdTA0M2RcdTA0M2VcdTA0MzIiLCJleHBpcmUiOjE3NDU1OTkyMzR9fQ.i-9OgmTbRi4A3HZPGh074Bpad5wFkNSSg7WU3yC9P4I'

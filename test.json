@@ -1,0 +1,53 @@
+URL: https: //dev.spbticket.com/api/v1/integration/order
+Headers:
+Array
+(
+    [Content-Type
+] => application/json
+    [Authorization
+] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Rldi5zcGJ0aWNrZXQuY29tIiwiYXVkIjoiaHR0cHM6Ly9kZXYuc3BidGlja2V0LmNvbSIsImlhdCI6MTc0MzAwNzIzNCwibmJmIjoxNzQzMDA3MjM0LCJleHAiOjE3NDU1OTkyMzQsImRhdGEiOnsiaWQiOjY0LCJmaXJzdG5hbWUiOiJcdTA0MThcdTA0MzJcdTA0MzBcdTA0M2QiLCJwYXRyb255bWljIjoiXHUwNDE4XHUwNDMyXHUwNDMwXHUwNDNkXHUwNDNlXHUwNDMyXHUwNDM4XHUwNDQ3IiwibGFzdG5hbWUiOiJcdTA0MThcdTA0MzJcdTA0MzBcdTA0M2RcdTA0M2VcdTA0MzIiLCJleHBpcmUiOjE3NDU1OTkyMzR9fQ.i-9OgmTbRi4A3HZPGh074Bpad5wFkNSSg7WU3yC9P4I
+    [Accept
+] => application/json
+)
+
+Request Body: {
+    "data": {
+        "order": {
+            "comment": "",
+            "client_name": "\u0420\u0443\u0441\u043b\u0430\u043d - test dev",
+            "client_phone": "9999600323",
+            "client_email": "kotashov03@gmail.com",
+            "external_order_id": "1"
+        },
+        "tickets": [
+            {
+                "date": "27.03.2025",
+                "rates": [
+                    {
+                        "count": "1",
+                        "rate_id": 1
+                    },
+                    {
+                        "count": "0",
+                        "rate_id": 2
+                    },
+                    {
+                        "count": "0",
+                        "rate_id": 3
+                    },
+                    {
+                        "count": "0",
+                        "rate_id": 4
+                    },
+                    {
+                        "count": "0",
+                        "rate_id": 5
+                    }
+                ],
+                "schedule_id": 2,
+                "time": "10:00",
+                "tour_id": "1000"
+            }
+        ]
+    }
+}

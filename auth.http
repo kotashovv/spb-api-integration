@@ -1,0 +1,2 @@
+curl -X POST "https://dev.spbticket.com/api/v1/auth/login?field=testdev%40kometatek.ru&password=8oeMB51Mn0G0jmMr" \
+  -H "Accept: application/json"
